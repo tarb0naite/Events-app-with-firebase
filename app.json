@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Thirdv3",
+    "slug": "Thirdv3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "white"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "white"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  },
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "scripts": {
+    "lint": "eslint . --ext .js"
+   
+  },
+  "dependencies": {
+  
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-native": "^3.11.1",
+    "eslint-config-airbnb": "^18.2.1"
+  }
+}
